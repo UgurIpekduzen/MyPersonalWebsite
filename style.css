@@ -1,0 +1,40 @@
+body{
+    background:#4996CA url(programming.png);
+    background-size:40%;
+    background-repeat: no-repeat;
+    background-position: 90% -70%;
+}
+.navbar {
+    width: 200px;
+    left: 0;
+}
+
+ul {
+    list-style-type: none;
+    height: 100%;
+}
+.navLink {
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.font{
+    font-family: 'Montserrat', sans-serif;
+}
+.btn {
+    margin-top: 20px;
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+}
+
+#headerSection {
+    float: right;
+    margin-right: 90px;
+    
+}
+#headerSection h1 {
+    font-size: 50px;
+}
+
