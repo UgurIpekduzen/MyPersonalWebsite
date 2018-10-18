@@ -1,16 +1,26 @@
+#aboutMe{
+}
+
+.accounts{
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: white;
+}
+
 .active {
     background-color: white;
     color: black;
 }
 
 body{
-    /*background: #4996CA url(programming.png);
-    background-size: 40%;
+    background-image: url(programming.png);
+    background-size: 80%;
     background-repeat: no-repeat;
-    background-position: 90% -70%;
-    text-align: center;*/ 
+    text-align: center; 
+    background-position: center;
     background-color: #4996ca;
     align-content: center;
+    background-attachment: fixed; /*SİLME*/
 }
 
 .navbar {
@@ -36,12 +46,21 @@ ul {
     color: white;
 }
 
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
 .btn {
     padding: 5px;
     text-align: center;
     transition-duration: .6s;
   transition-timing-function: ease;
     line-height: 40px;
+   /* animation-name: slideIn;
+    animation-duration: 5s; */
 }
 .btn-hover {
   letter-spacing: 0;
@@ -80,10 +99,8 @@ ul {
 }
 
 #headerSection {
-    float: right;
     text-align: center;
-    position: fixed;
-    padding: 0px 150px;
+    margin: 0 auto;
 }
 
 #headerSection h1 {
@@ -92,3 +109,17 @@ ul {
 #headerSection div {
     margin: 40px;
 }
+
+
+
+/*@keyframes slideIn {
+    from {
+        margin-left: 100px;
+        opacity: 0;
+    }
+
+    to {
+        margin-left: 0;
+        opacity: 1;
+    }
+}*/
